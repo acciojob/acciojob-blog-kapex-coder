@@ -25,7 +25,6 @@ const blogs = [
 ]
 
 const blogs_container = document.getElementById("blogs");
-
 blogs_container.innerHTML = blogs.map((blog) => {
 	return (
 	  `
@@ -44,7 +43,7 @@ blogs_container.innerHTML = blogs.map((blog) => {
 		</div>
 	  `
 	)
-})
+});
 
 
 
