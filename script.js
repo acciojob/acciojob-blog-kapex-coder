@@ -34,18 +34,18 @@ const blogs_container = document.getElementById("blogs");
 // Blogs map
 const blogs_map = blogs.map((blog) => {
   return `
-  		<article>
-		   <img 
-			   src=${blog.image_url} 
-			   alt=${blog.title} 
-			   height=${blog.image_height} 
-		   />
-		   <h2>
-			   <a href=${blog.link}>
-				${blog.title}
-			   </a>
-		   </h2>
-		   <p>${blog.paragraph}</p>
+    <article>
+      <img 
+        src=${blog.image_url} 
+        alt=${blog.title} 
+        height=${blog.image_height} 
+      />
+      <h2>
+        <a href=${blog.link}>
+      ${blog.title}
+        </a>
+      </h2>
+      <p>${blog.paragraph}</p>
 		</article>
 	`;
 });
